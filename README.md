@@ -1,8 +1,8 @@
-# SwapShop | Python, Django
+# 🎏SwapShop | Python, Django
 
 SwapShop is a comprehensive online marketplace where users can post items they want to sell and browse items posted by others. This platform is designed to cater to a wide audience, providing a robust and user-friendly environment for buying and selling second-hand items.
 
-## Features
+## 🎍Features
 
 ### 1. **User Registration and Authentication**
 
@@ -39,9 +39,9 @@ SwapShop is a comprehensive online marketplace where users can post items they w
     ```
   - Follow the prompts to create the superuser, typically using "admin" as the username.
 
-# Project Environment Setup
+# 🧷 Environment Setup
 
-## Setting virtual environment
+## 1. Setting virtual environment
 Open a new Terminal by clicking NewTerminal button on top of you VSCode Terminal section 
 
 Then type in: 
@@ -51,19 +51,19 @@ Here "env" is the name of your virtual environment
 env is an isolated virtual environment just for this project where you can install python packages such as Django 
 Upon creating a new virual environment you should be able to see a new folder called env
 
-## Activate virutal environment 
+## 2. Activate virutal environment 
 In the same terminal type in:
 #### source env/bin/activate 
 You should be able to see an (env)/ at the beginning of your terminal directory on your terminal 
 
-## Install django and pillow 
+## 3. Install django and pillow 
 In the same terminal type in:
 #### pip install django
 
 After finishing django package then type in:
 #### pip install pillow 
 
-## Finish 
+## 4. Finish 
 When finishing installing these two packages your virtual environment is now ready to run this website! 
 
 # Run the website 
@@ -73,11 +73,12 @@ Then you should be on track, and type in:
 #### python manage.py runserver 
 
 You should be able to see the following messages: 
-
-#### System check identified no issues (0 silenced) <br />
-#### Django version 4.2.5, using settings 'myproject.settings' <br />
-#### Starting development server at http://127.0.0.1:8000/ <br />
-#### Quit the server with CONTROL-C. <br />
+<pre style="background-color: #f4f4f4; padding: 10px;">
+System check identified no issues (0 silenced) <br />
+Django version 4.2.5, using settings 'myproject.settings' <br />
+Starting development server at http://127.0.0.1:8000/ <br />
+Quit the server with CONTROL-C. <br />
+</pre>
  
 Copy the server address  http://127.0.0.1:8000/ and paste it into your system browser <br />
 You should be able to see the fron page of the server with Sign up and Login on top right 
@@ -89,5 +90,5 @@ In order to access admin site, on the url of your brower type in:
 Login here with your super user credentials and you should be able to access the database of the website <br />
 In here you can manage the website users, their items and the conversations between users.
 
-Enjoy!
+🤖Enjoy!
 
